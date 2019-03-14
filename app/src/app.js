@@ -21,7 +21,7 @@ export default angular.module( 'starter-app', [ 'ngMaterial', Users.name ] )
       .icon("phone", "./assets/svg/phone.svg", 24);
 
     $mdThemingProvider.theme('default')
-      .primaryPalette('brown')
+      .primaryPalette('blue')
       .accentPalette('red');
   })
   .controller('AppController', AppController);
